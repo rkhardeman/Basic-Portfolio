@@ -83,12 +83,18 @@ header{
 }
 
 #profilePic{
-	margin-left:10px;
+	float:left;
+	margin-left:25px;
+}
+
+#aboutP {
+	float:left;
+	margin-left: 10px;
 }
 
 #connectContainer{
 	background-color:white;
-	width:20%;
+	width:250px;
 	float:right;
 	margin-top:30px;
 	margin-right:100px;
@@ -107,8 +113,13 @@ header{
 
 #connectIcons{
 	float:right;
-	padding:20px;
 }
+
+#connectIcons{
+	float:right;
+	margin:20px;
+}
+
 
 footer{
 	background-color:#666666;
