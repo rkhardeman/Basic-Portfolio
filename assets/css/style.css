@@ -98,16 +98,20 @@ header{
 }
 
 #aboutP2 {
-	padding-top:1px;
 	padding-left:16px;
 }
 
+/*#connectBox{
+	width:auto;
+	height:auto;
+}
+*/
 #connectContainer{
 	background-color:white;
-	width:250px;
+	width:300px;
 	float:right;
 	margin-top:30px;
-	margin-right:100px;
+	margin-right:121px;
 }
 
 #connectHeader{
@@ -122,13 +126,11 @@ header{
 }
 
 #connectIcons{
-	float:right;
+	float:left;
+	margin:20px;
+	padding:15px;
 }
 
-#connectIcons{
-	float:right;
-	margin:20px;
-}
 
 
 footer{
@@ -142,4 +144,9 @@ footer{
 	bottom: 0;
 	right: 0;
 	left:0;
+}
+
+#copyright{
+	font-size:15px;
+	padding-top:20px;
 }
