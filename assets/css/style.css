@@ -32,7 +32,6 @@ header{
 	width:300px;
 }
 
-
 #navLinks {
 	float: right;
 	margin-right: 155px;
@@ -44,7 +43,6 @@ header{
 #navLinks ul{
 	text-align:center;
 	list-style-type:none;
-
 }
 
 #navLinks li {
@@ -54,7 +52,6 @@ header{
  	border-color:gray;
  	border-left:solid;
  	border-left:4px;
-
 }
 
 #parentBody{
@@ -97,18 +94,14 @@ header{
 	padding:16px;
 }
 
-#aboutP2 {
-	padding-left:16px;
-}
-
 /*#connectBox{
 	width:auto;
 	height:auto;
-}
-*/
+}*/
+
 #connectContainer{
 	background-color:white;
-	width:300px;
+	width:275px;
 	float:right;
 	margin-top:30px;
 	margin-right:121px;
@@ -131,8 +124,6 @@ header{
 	padding:15px;
 }
 
-
-
 footer{
 	background-color:#666666;
 	border-top:#4aaaa5;
@@ -147,6 +138,30 @@ footer{
 }
 
 #copyright{
+	color:#ffffff;
 	font-size:15px;
 	padding-top:20px;
+}
+
+/*Portfolio Specific*/ 
+/*Portfolio Specific*/ 
+
+#imageContainer1{
+	height:auto;
+	float:left;
+	width:auto;
+}
+#appImage{
+	float:left;
+}
+
+#appName{background-color:#4aaaa5;
+	color:white;
+	position:absolute;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	text-align:center;
+	padding:10px;
+	margin-left:121px;
+	height:auto;
+	width:auto;
 }
