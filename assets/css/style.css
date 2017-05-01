@@ -101,7 +101,7 @@ header{
 
 #connectContainer{
 	background-color:white;
-	width:275px;
+	width:auto;
 	float:right;
 	margin-top:30px;
 	margin-right:121px;
@@ -120,8 +120,8 @@ header{
 
 #connectIcons{
 	float:left;
-	margin:20px;
-	padding:15px;
+	margin:5px;
+	padding:5px;
 }
 
 footer{
@@ -146,13 +146,16 @@ footer{
 /*Portfolio Specific*/ 
 /*Portfolio Specific*/ 
 
-#imageContainer1{
+#imageContainer{
 	height:auto;
 	float:left;
 	width:auto;
 }
 #appImage{
-	float:left;
+	width: auto;
+  	height: auto;
+  	position: relative; 
+  	margin-right:10px; 
 }
 
 #appName{background-color:#4aaaa5;
@@ -164,4 +167,11 @@ footer{
 	margin-left:121px;
 	height:auto;
 	width:auto;
+}
+
+
+
+#boxTest{
+	height:60;
+	width:60;
 }
