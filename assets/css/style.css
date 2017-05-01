@@ -2,7 +2,6 @@ body{
 	width:auto;
 	background-image: url("../images/background.png");
 	margin:0;
-/*	width:960px;*/
 }
 
 /** { border: 1px solid black; } */
@@ -46,17 +45,24 @@ header{
 }
 
 #navLinks li {
-	font-color:gray;
  	float: left;
- 	padding:5px;
- 	border-color:gray;
- 	border-left:solid;
- 	border-left:4px;
+}
+
+#navLinks li+li {
+  border-left: 1px solid black
+}
+
+#navLinks li a {
+	display: block;
+	color: darkgrey;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-family: arial
 }
 
 #parentBody{
 	position:absolute;
-	/*width:650px;*/
 	left:0;
 	right:0;
 }
@@ -66,6 +72,7 @@ header{
 	height:auto;
 	background-color:white;
 	float:left;
+	display:flex;
 	margin-left:121px;
 	margin-top:30px;
 }
@@ -93,11 +100,6 @@ header{
 	text-align:left;
 	padding:16px;
 }
-
-/*#connectBox{
-	width:auto;
-	height:auto;
-}*/
 
 #connectContainer{
 	background-color:white;
@@ -147,31 +149,61 @@ footer{
 /*Portfolio Specific*/ 
 
 #imageContainer{
-	height:auto;
-	float:left;
-	width:auto;
-}
-#appImage{
-	width: auto;
-  	height: auto;
-  	position: relative; 
-  	margin-right:10px; 
+	display:flex;
+	background-color:white;
+	width:700px;
+	padding: 0;
+  	margin: 15px;
 }
 
-#appName{background-color:#4aaaa5;
-	color:white;
-	position:absolute;
-	font-family:'Georgia', Times, Times New Roman, serif;
-	text-align:center;
-	padding:10px;
-	margin-left:121px;
-	height:auto;
-	width:auto;
+.appList{
+	padding: 50px;
+  	margin: 15px;
+  	list-style: none;
+  	display:flex;
+  	flex-flow:wrap;
 }
 
+.appImage{
+  	float:left;
+  	margin:10px; 
+  	position:relative;
+}
 
+.appName{
+  background-color:grey;
+  width:90%;
+  height: 50px;
+  margin-bottom:20px;
+  margin-left:10px;
+  bottom:0;
+  opacity:1; 
+}
 
-#boxTest{
-	height:60;
-	width:60;
+/*contact Specific*/ 
+/*contact Specific*/ 
+
+#label{
+	margin-left:20px;
+}
+
+#smallBox{
+	margin-left:20px;
+}
+
+#messageInput{
+	margin-left:20px;
+	height:250px;
+	width:500px;
+}
+
+#submitButton{
+	margin:20px;
+	background-color: #4aaaa5;
+    color: white;
+    text-align:center;
+    border: none;
+    cursor: pointer;
+    height:45px;
+    width:100px;
 }
